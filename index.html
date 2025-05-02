@@ -26,6 +26,29 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="css/app-light.css" id="lightTheme" disabled>
     <link rel="stylesheet" href="css/app-dark.css" id="darkTheme">
+    <!-- fierbase code -->
+     <!-- Firebase App (core) -->
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>
+
+<!-- Add services as needed -->
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js"></script>
+
+<script>
+  // TODO: Replace with your project's Firebase config
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: "XXXXXXX",
+    appId: "YOUR_APP_ID"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
   </head>
   <body class="vertical  dark  ">
     <div class="wrapper">
